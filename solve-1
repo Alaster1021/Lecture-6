@@ -1,0 +1,8 @@
+a=int(input())
+v=0
+b=input()
+c=b.split(',')
+for i in range(len(c)):
+    if int(c[i])%10==3:
+        v+=int(c[i])
+print(v)
